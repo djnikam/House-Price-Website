@@ -1,0 +1,214 @@
+*{
+    font-family: Georgia,sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.Header{
+    position: relative;
+    padding-top: 16px;
+    background-color:aquamarine;
+    height: 5rem;
+}
+li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 136, 68);
+}
+
+a:hover{
+    color: cornsilk;
+}
+
+.navbar{
+    position: absolute;
+    right: 20%;
+    bottom: 30%;
+}
+
+#logo-nm{
+    margin: 10px 20px;
+}
+
+.btn-log{
+    border: none;
+    text-align: center;
+    border-radius: 1.2rem;
+    background-color: blueviolet;
+    color: azure;
+    height: 1.5rem;
+    width: 3.5rem;
+    position: absolute;
+    right: 10%;
+    bottom: 36%;
+}
+
+.btn-sign{
+    border: none;
+    text-align: center;
+    border-radius: 1.2rem;
+    background-color: blueviolet;
+    color: azure;
+    height: 1.8rem;
+    width: 4rem;
+    position: absolute;
+}
+
+.btn-log:hover{
+    background-color:hotpink;
+    color: black;
+}
+.btn-sign:hover{
+    background-color:hotpink;
+    color: black;
+}
+
+.Home{
+    background-image: url(Images/Home.jpg);
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    width: 70rem;
+    display: flex;
+    align-items: center;
+    color:aliceblue;
+    margin: 2rem auto;
+    border-radius: 2rem;
+}
+
+.middle-container{
+    margin: 1rem auto 1rem auto;
+    height: 23rem;
+    width:74%;
+}
+.about{
+    width: 40%;
+    margin-top: 1rem;
+    border-radius: 2rem 0 2rem 2rem;
+    float: left;
+    margin-right: 1.5rem;
+}
+
+.about-text{
+    line-height: 1.5;
+    color: darkgreen;
+    padding-top: 1rem;
+}
+#ab-us{
+    color: blue;
+}
+.btn{
+    border: none;
+    text-align: center;
+    border-radius: 1.2rem;
+    background-color: blueviolet;
+    color: azure;
+    height: 1.8rem;
+    width: 6rem;
+    position: absolute;
+}
+
+.btn:hover{
+    background-color:hotpink;
+    color: black;
+}
+
+.boxes{
+    height: 10rem;
+    margin-top: 3rem;
+}
+
+.box-1{
+    height: 10rem;
+    width: 20rem;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    border-color: black;
+    background-color: aliceblue;;
+    border-radius: 2rem;
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.box-2{
+    height: 10rem;
+    width: 20rem;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    border-color: black;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    display: inline-block;
+    margin-left: 38rem;
+}
+
+.box-3{
+    height: 10rem;
+    width: 20rem;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    border-color: black;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    display: inline-block;
+    margin-left: 73rem;
+}
+.box-1:hover{
+    background-color: rgb(8, 128, 128);
+    color: white;
+}
+.box-2:hover{
+    background-color: rgb(8, 128, 128);
+    color: white;
+}
+.box-3:hover{
+    background-color: rgb(8, 128, 128);
+    color: white;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-width: 0.3rem;
+    border-color: grey;
+    width: 10%;
+    margin: 6rem auto;
+}
+
+.bottom-container{
+    margin: 0.2rem auto 0.2rem auto;
+    text-align: center;
+    background-color: red;
+    padding-bottom: 10rem;
+}
+.row img{
+    height :15rem;
+    width : 16rem;
+    border-radius: 2rem;
+    padding: 2.5rem;  
+    background-color: aliceblue;
+}
+
+.row1_house {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row2_house {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+
+.cp{
+    margin-top: 3rem;
+}
+   
+   
